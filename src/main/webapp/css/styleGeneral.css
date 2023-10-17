@@ -1,0 +1,96 @@
+body{
+    /*!* задаёт путь до файла *!*/
+    /*background-image: url("png/cisterna.png");*/
+    /*!* задает стартовое положение изображения на странице *!*/
+    /*background-position: center center;*/
+    /*!* определяет размер изображения на странице *!*/
+    /*background-size: cover;*/
+    /*!* свойство устанавливает, будет ли повторяться изображение и каким образом *!*/
+    /*background-repeat: no-repeat;*/
+    /*!* cвойство определяет, будет ли фоновое изображение прокручиваться вместе с остальной частью страницы или будет фиксированным *!*/
+    /*background-attachment: fixed;*/
+
+    /*!* возможна также и короткая запись данных свойств *!*/
+    /*!*background: url("png/cisterna.png") center center no-repeat  fixed;*!*/
+    /*!*background-size: cover;*!*/
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: center;
+}
+
+ th.tableVanClass, td.tableVanClass {
+    text-align: right;
+    padding: 5px;
+}
+
+ tr.tableVanClass:nth-child(even) {
+    background-color: rgba(211, 211, 211, 0.83)
+}
+
+a:active {
+    background: linear-gradient(1deg, rgb(255, 255, 255), rgba(210, 210, 210, 0.9));
+}
+
+.link a {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    background: url("icons.png") no-repeat;
+}
+
+.icon-add {
+    background-position: 0 0;
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.icon-delete {
+    background-position: -24px 0;
+}
+
+.icon-edit {
+    background-position: -49px 0;
+}
+
+.icon-watched {
+    background-position: -74px 0;
+}
+
+.icon-first {
+    background-position: -125px 0;
+    margin: 0;
+}
+
+.icon-prev {
+    background-position: -147px 0;
+    margin: 0;
+}
+
+.icon-next {
+    background-position: -166px 0;
+    margin: 0;
+}
+
+.icon-last {
+    background-position: -188px 0;
+    margin: 0;
+}
+
+

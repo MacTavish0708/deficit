@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+table {
+    border-spacing: 0 10px;
+    font:  bold 100% Georgia, serif;
+    margin: 10px auto;
+    text-shadow: 5px 5px 5px #66669d;
+    background: #b3b9da;
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+    border: 5px solid #4747ab;
+}
